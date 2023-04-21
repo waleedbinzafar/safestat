@@ -1,2 +1,8 @@
 
 *.pyc
+ner_service/models/transformers/config.json
+ner_service/models/transformers/pytorch_model.bin
+ner_service/models/transformers/special_tokens_map.json
+ner_service/models/transformers/tokenizer_config.json
+ner_service/models/transformers/tokenizer.json
+ner_service/models/transformers/vocab.txt
