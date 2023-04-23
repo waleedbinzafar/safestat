@@ -6,3 +6,6 @@ ner_service/models/transformers/special_tokens_map.json
 ner_service/models/transformers/tokenizer_config.json
 ner_service/models/transformers/tokenizer.json
 ner_service/models/transformers/vocab.txt
+ner_service/models/.DS_Store
+.gitignore
+*/.gitignore

@@ -24,7 +24,7 @@ class ParseFeed:
         # check redis cache
         if not self.cache.check_cache(entry.link):
             self.cache.add_to_cache(entry.link, entry.published)
-            self.new_events.append({"link": entry.link, "published": entry.published, "content":entry.content[0]["value"]})
+            self.new_events.append({"link": entry.link, "published": entry.published, "content":entry.content[0]["value"], "tag":self.watchword})
             print(entry.link)
         else:
             print("Already exists:", entry.link)

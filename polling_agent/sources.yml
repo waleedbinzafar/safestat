@@ -2,3 +2,16 @@
 sources:
   robbery:
     tribune-punjab: "https://tribune.com.pk/feed/punjab"
+    tribune-sindh: "https://tribune.com.pk/feed/sindh"
+    tribune-balochistan: "https://tribune.com.pk/feed/balochistan"
+    tribune-kp: "https://tribune.com.pk/feed/khyber-pakhtunkhwa"
+  rape:
+    tribune-punjab: "https://tribune.com.pk/feed/punjab"
+    tribune-sindh: "https://tribune.com.pk/feed/sindh"
+    tribune-balochistan: "https://tribune.com.pk/feed/balochistan"
+    tribune-kp: "https://tribune.com.pk/feed/khyber-pakhtunkhwa"
+  terrorist:
+    tribune-punjab: "https://tribune.com.pk/feed/punjab"
+    tribune-sindh: "https://tribune.com.pk/feed/sindh"
+    tribune-balochistan: "https://tribune.com.pk/feed/balochistan"
+    tribune-kp: "https://tribune.com.pk/feed/khyber-pakhtunkhwa"
