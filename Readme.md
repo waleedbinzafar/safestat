@@ -1,10 +1,14 @@
 # Safestat
 Safestat is an app that keeps tabs on certain crime keywords on news platforms, and provides statistics about crime occurrances at different locations.
 
-## Setting up the NER service
+The app itself is broken down into multiple services.
+1. Polling Agent: periodically fetches news from various RSS feeds configured by the user and maintains a cache to ensure non-duplicate processing - user is free to add sources and watchwords
+2. Data Service: picks up new news events from a message queue, gets predictions from the ML service and puts the processed data in the DB storage
+3. ML Service: a containerized serving of a NER (named-entity-recognition) NLP model that extracts and returns locations from news text
+4. Database: a MySQL database server storing events
+5. Dashboard Service: a containerized dashboard serving app built using Plotly Dash, displaying analytics about news and various watchwords
 
-1. Download the model files and place in ner_service/models/transformers
-2. cd into ner_service
-3. Run setup.sh
-4. Run docker container
-    docker run -i -p 9000:5005 ner-service
+![Architecture Diagram](architecture.drawio.png "Architecture Diagram")
+
+# Setup
+View the setup.md for instructions on how to set up the app for first use
