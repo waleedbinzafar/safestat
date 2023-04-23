@@ -1,4 +1,5 @@
-
+# Safestat
+Safestat is an app that keeps tabs on certain crime keywords on news platforms, and provides statistics about crime occurrances at different locations.
 
 ## Setting up the NER service
 
